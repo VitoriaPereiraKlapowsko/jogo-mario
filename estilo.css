@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
 /* Reset de estilos padrão para todos os elementos */
 * {
   margin: 0;
@@ -14,6 +16,12 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(#63c4eb, #e0f6ff);
+}
+
+.pontuacao {
+  text-align: center;
+  font-family: 'Nova Square', sans-serif;
+  font-size: 20px;
 }
 
 /* Estilos do cano no jogo */
@@ -73,7 +81,7 @@
 /* Animação para o movimento do cano */
 @keyframes animacoes-cano {
   from {
-    right: -80px;
+    right: -0%;
   }
 
   to {
@@ -92,11 +100,11 @@
   }
 
   50% {
-    bottom: 120px;
+    bottom: 240px;
   }
 
   60% {
-    bottom: 120px;
+    bottom: 360px;
   }
 
   100% {
